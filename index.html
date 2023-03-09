@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid" id="main">
+      <div class="row">
+        <div
+          class="col-lg-6 mt-5 d-flex flex-direction-row justify-content-center align-items-center"
+          id="first"
+        >
+          <h1>
+            Website Monitoring <br />
+            and performance <br />
+            testing solutions
+          </h1>
+        </div>
+        <div
+          class="col-lg-6 mt-5 d-flex justify-content-center align-items-center"
+          id="login"
+        >
+          <div
+            class="container d-flex flex-column justify-content-center align-items-center"
+            id="mainlog"
+          >
+            <div
+              class="btn-group"
+              role="group"
+              aria-label="Basic outlined example"
+            >
+              <button type="button" class="btn btn-outline-primary btn-lg">
+                log in
+              </button>
+              <button type="button" class="btn btn-primary btn-lg">
+                Sign up
+              </button>
+            </div>
+            <br />
+            <h2>Create your account</h2>
+            <form id="submit-form" role="form" name="myform">
+              <div
+                class="form-outline mb-3 d-flex align-items-center"
+                id="nameout"
+              >
+                <input
+                  type="text"
+                  placeholder="Enter your company Name"
+                  class="form-control form-control-lg"
+                  id="name"
+                  onkeyup="validatename()"
+                />
+                <span id="nameError"></span>
+              </div>
+
+              <div class="form-outline mb-3 d-flex align-items-center">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="form-control form-control-lg"
+                  id="email"
+                  onkeyup="validateemail()"
+                />
+                <span id="emailError"></span>
+              </div>
+
+              <div class="form-outline mb-3 d-flex align-items-center">
+                <input
+                  type="password"
+                  placeholder="Password"
+                  class="form-control form-control-lg"
+                  id="Password"
+                  onkeyup="validatepassword()"
+                />
+                <span id="hiden" onclick="hiden123()"
+                  ><i class="fa-sharp fa-solid fa-eye"></i
+                ></span>
+                <span id="passwordError"></span>
+              </div>
+
+              <div class="form-outline mb-4 d-flex align-items-center">
+                <input
+                  type="password"
+                  placeholder="Repeat your password"
+                  class="form-control form-control-lg"
+                  id="repassword"
+                  onkeyup="validaterepassword()"
+                />
+                <span id="hiden1" onclick="hiden12()"
+                  ><i class="fa-sharp fa-solid fa-eye"></i
+                ></span>
+                <span id="repassError"></span>
+              </div>
+              <div class="d-flex justify-content-center">
+                <input
+                  type="submit"
+                  value="continue"
+                  class="btn btn-primary btn-block btn-lg gradient-custom-4 text-body"
+                  onclick="result()"
+                />
+              </div>
+              </form>
+              <hr />
+              <div class="d-flex justify-content-center">
+                <p style="color: blue">log in using</p>
+              </div>
+              <div class="d-flex justify-content-center" id="iconpack">
+                <img src="./assets/facebook_circle_color-512.webp" alt="" />
+                <img src="./assets/gmail-icon-512x511-fih5xfbp.png" alt="" />
+                <img src="./assets/174855.png" alt="" />
+              </div>
+              <div class="d-flex justify-content-center mt-3">
+                <h6>already have an account ?<a href=""> log in</a></h6>
+              </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scrip.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

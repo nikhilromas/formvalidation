@@ -1,0 +1,48 @@
+/* #main{
+    height:100vh;
+    background-image: url('./assets/abstract-background-bubble-water-liquid-blue-background-illustration-vector.webp');
+} */
+
+/* #first{
+
+ 
+} */
+#login{
+    height: 90vh;
+}
+#mainlog{
+    height: 80vh;
+    border-radius: 2%;
+    margin-right: 10%;
+    border:white 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+  form span i{
+    color: green;
+  }
+  form span{
+    color: red;
+  }
+  #iconpack img{
+    width: 3rem;
+    height: 2.6rem;
+    margin-left: 1rem;
+  }
+  a{
+    text-decoration: none;
+  }
+  @media screen and (min-width: 990px) {
+    #main{
+      height:100vh;
+      background-image: url('./assets/abstract-background-bubble-water-liquid-blue-background-illustration-vector.webp');
+  }
+    
+  }
+  
+  @media screen and (max-width: 990px) {
+    #main{
+      height:130vh;
+      background-image: url('./assets/abstract-background-bubble-water-liquid-blue-background-illustration-vector.webp');
+  }
+   }

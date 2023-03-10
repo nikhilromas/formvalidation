@@ -81,23 +81,4 @@ function validaterepassword() {
     return false;
   }
 }
-function result() {
-  let password = document.getElementById("Password").value;
-  let email = document.getElementById("email").value;
-  let cname = document.getElementById("name").value;
 
-  if (
-    validatename() &&
-    validateemail() &&
-    validatepassword() &&
-    validaterepassword()
-  ) {
-    alert(
-      "the company name is : " + cname
-      +" email id is : " + email
-      +" the password is : " + password
-    );
-  } else {
-    alert("you must fill all the details");
-  }
-}

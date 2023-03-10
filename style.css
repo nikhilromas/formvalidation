@@ -1,12 +1,4 @@
-/* #main{
-    height:100vh;
-    background-image: url('./assets/abstract-background-bubble-water-liquid-blue-background-illustration-vector.webp');
-} */
 
-/* #first{
-
- 
-} */
 #login{
     height: 90vh;
 }
@@ -31,6 +23,38 @@
   }
   a{
     text-decoration: none;
+  }
+  #passouter{
+    display:inline-block;
+    position: relative;
+
+  }
+  #passouter2 #password{
+outline: none;
+border: 0;
+
+  }
+  #passouter i{
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  #passouter2{
+    display:inline-block;
+    position: relative;
+
+  }
+  #passouter2 #repassword{
+outline: none;
+border: 0;
+
+  }
+  #passouter2 i{
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    cursor: pointer;
   }
   @media screen and (min-width: 990px) {
     #main{

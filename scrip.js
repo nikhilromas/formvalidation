@@ -39,7 +39,7 @@ function validatepassword() {
     return false;
   } else {
     passwordError1.innerHTML =
-      "Password must have A lowercase letter,A uppercase letter,a number and a special character ";
+      "Password must have A alphabet,a number and a special character ";
     return false;
   }
 }

@@ -1,72 +1,66 @@
-
-#login{
-    height: 90vh;
+#login {
+  height: 90vh;
 }
-#mainlog{
-    height: 80vh;
-    border-radius: 2%;
-    margin-right: 10%;
-    border:white 1px solid;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+#mainlog {
+  height: 80vh;
+  border-radius: 2%;
+  margin-right: 10%;
+  border: white 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-  form span i{
-    color: green;
+form span i {
+  color: green;
+}
+form span {
+  color: red;
+}
+#iconpack img {
+  width: 3rem;
+  height: 2.6rem;
+  margin-left: 1rem;
+}
+a {
+  text-decoration: none;
+}
+#passouter {
+  display: inline-block;
+  position: relative;
+}
+#passouter2 #password {
+  outline: none;
+  border: 0;
+}
+#passouter i {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+#passouter2 {
+  display: inline-block;
+  position: relative;
+}
+#passouter2 #repassword {
+  outline: none;
+  border: 0;
+}
+#passouter2 i {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+@media screen and (min-width: 990px) {
+  #main {
+    height: 100vh;
+    background-image: url("./assets/abstract-background-bubble-water-liquid-blue-background-illustration-vector.webp");
   }
-  form span{
-    color: red;
-  }
-  #iconpack img{
-    width: 3rem;
-    height: 2.6rem;
-    margin-left: 1rem;
-  }
-  a{
-    text-decoration: none;
-  }
-  #passouter{
-    display:inline-block;
-    position: relative;
+}
 
+@media screen and (max-width: 990px) {
+  #main {
+    height: 110vh;
+    background-image: url("./assets/abstract-background-bubble-water-liquid-blue-background-illustration-vector.webp");
   }
-  #passouter2 #password{
-outline: none;
-border: 0;
-
-  }
-  #passouter i{
-    position: absolute;
-    top:1rem;
-    right: 1rem;
-    cursor: pointer;
-  }
-  #passouter2{
-    display:inline-block;
-    position: relative;
-
-  }
-  #passouter2 #repassword{
-outline: none;
-border: 0;
-
-  }
-  #passouter2 i{
-    position: absolute;
-    top:1rem;
-    right: 1rem;
-    cursor: pointer;
-  }
-  @media screen and (min-width: 990px) {
-    #main{
-      height:100vh;
-      background-image: url('./assets/abstract-background-bubble-water-liquid-blue-background-illustration-vector.webp');
-  }
-    
-  }
-  
-  @media screen and (max-width: 990px) {
-    #main{
-      height:130vh;
-      background-image: url('./assets/abstract-background-bubble-water-liquid-blue-background-illustration-vector.webp');
-  }
-   }
+}
